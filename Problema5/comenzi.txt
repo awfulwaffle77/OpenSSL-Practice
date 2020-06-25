@@ -1,0 +1,7 @@
+Generare cheie privata RSA:
+---------------------------
+openssl genrsa -3 -out rsakey.prv 2048
+
+Extragere cheie publica:
+------------------------
+openssl rsa -in rsakey.prv -pubout -out rsakey.pub

@@ -1,0 +1,3 @@
+openssl genrsa -3 –out rsa1.prv 1024
+openssl genrsa -3 –out rsa2.prv 1024
+openssl genrsa -3 –out rsa3.prv 1024
